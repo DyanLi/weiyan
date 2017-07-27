@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http:/www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title th:text="#{home.title}">Title</title>
+</head>
+<body>
+
+<!-- string operations -->
+<div>
+    <p th:text="${user.name}+' ' + ${user.email}">use description</p>
+</div>
+
+</body>
+</html>
